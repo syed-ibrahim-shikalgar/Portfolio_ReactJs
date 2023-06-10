@@ -1,0 +1,37 @@
+.dropdown {
+  height: 2rem;
+}
+
+.dropdown-menu {
+  width: 10rem;
+  text-align: center;
+  color: black;
+  position: relative;
+  cursor: pointer;
+  padding: 2rem;
+}
+
+.dropdown-menu:hover {
+  color: #3f3d56;
+}
+
+.dropdown-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  position: absolute;
+  top: 6.8rem;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to right bottom, #ff6366, #cf4143);
+}
+
+.dropdown-list > a {
+  border: 1px solid transparent;
+  font-weight: 600;
+}
+
+.dropdown-list > a:hover {
+  border: 2px solid #3f3d56;
+  color: #252533;
+}
